@@ -190,7 +190,7 @@ section{
 header.sticky{
     background: var(--bg-color);
     border-bottom: 1px solid #ffffff1a;
-    padding: 12px 15%;
+  padding: 15px 15%;
 }
 .about{
     display: grid;
@@ -507,8 +507,48 @@ form textarea{
 }
 
 @media (max-width: 920px) {
-   
- 
+      body{
+        font-family: 'Poppins', sans-serif;
+    }
+    .home{
+        position: relative;
+        height: 83vh;
+        width: 102%;
+        background-image: url();
+        /* background-size: cover; */
+        /* background-position: center; */
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 2.7rem;
+         margin-bottom: 2rem;
+        /* align-items: center;
+        justify-content: flex-start; */
+        background-color: var(--second-bg-color);
+    }
+
+    .home img{
+        width: 16rem;
+        height: 20rem;
+       margin-right: 5rem;
+       /* margin-bottom: 7rem; */
+    }
+    .home-text{
+        margin-left: 1rem;
+    }
+    .home-text h1{
+       font-size: 2.5rem;
+    }
+    .home-text h3{
+        font-size: 1.5rem;
+       margin-bottom: -0.1rem; 
+     }
+     .button{
+        margin-top: -3rem;
+     
+     }
+    header{
+       background-color:  #161616;
+    }
      .about{
         grid-template-columns: 1fr;
     }
