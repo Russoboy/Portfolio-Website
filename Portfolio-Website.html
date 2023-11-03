@@ -223,32 +223,10 @@
       </div>
        
       <div class="contact-form">
-            <form onsubmit="sendEmail(); reset(); return false;">
-              <input type="text" placeholder="Your Name" required>
-              <input type="email" placeholder="Your Email Address" required>
-              <input type="text" placeholder="What type of Website do you need?" required>
-              <textarea name="text" id="" cols="35" rows="10" placeholder="Type in any other info?" required></textarea>
-              <!-- <input type="submit" value="Send Message" class="submit" required > -->
-              <button class="submit" type="submit">Send Message  <i class='bx bx-send'></i></button>
-            </form>
+       
       </div>
       </section>
-      <script src="https://smtpjs.com/v3/smtp.js"></script>
-      <script>
-        function sendEmail(){
-          Email.send({
-            Host : "smtp.gmail.com",
-            Username : "adigundaniel14@gmail.com",
-            Password : "Enter your password",
-            To : 'adigundaniel454@gmail.com',
-            From : document.getElementById("email").value,
-            Subject : "New Contact Form Enquiry",
-            Body : "And this is the body"
-        }).then(
-          message => alert(message)
-        );
-        }
-      </script>
+    
      </body>
      <script src="Current-Portfolio-page.js"></script>
 </html>
